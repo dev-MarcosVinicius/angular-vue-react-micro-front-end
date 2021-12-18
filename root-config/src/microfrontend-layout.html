@@ -1,0 +1,20 @@
+<single-spa-router>
+    <nav>
+        <application name="@angular-vue-react-microfrontend/navbar"/>
+    </nav>
+    <main>
+        <route default>
+            <application name="@angular-vue-react-microfrontend/homepage"/>
+        </route>
+        <route path="react">
+            <application name="@angular-vue-react-microfrontend/react"/>
+        </route>
+        <route path="vue">
+            <application name="@angular-vue-react-microfrontend/vue"/>
+        </route>
+        <route path="angular">
+            <application name="@angular-vue-react-microfrontend/angular"/>
+        </route>
+    </main>
+</single-spa-router>
+  
