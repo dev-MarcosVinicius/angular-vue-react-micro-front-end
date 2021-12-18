@@ -18,5 +18,7 @@ export default {
     flex-direction: column;
     align-content: center;
     align-items: center;
+    border-width: 10px;
+    border-color: green;
 }
 </style>
