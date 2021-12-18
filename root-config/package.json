@@ -1,5 +1,5 @@
 {
-    "name": "@angular-vue-react-microfrontend/root-config",
+    "name": "@microfrontend/root-config",
     "scripts": {
         "start": "webpack serve --port 8000 --env isLocal",
         "build": "webpack --mode=production"
