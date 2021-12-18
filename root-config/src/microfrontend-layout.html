@@ -1,20 +1,11 @@
 <single-spa-router>
-    <!-- <nav>
-        <application name="@microfrontend/navbar"></application>
-    </nav> -->
     <main>
         <route default>
-            <application name="@microfrontend/home"></application>
+            <div style="display: flex; flex-direction: row; justify-content: space-evenly;">
+                <application name="@microfrontend/react"></application>
+                <application name="@microfrontend/vue"></application>
+                <application name="@microfrontend/angular"></application>
+            </div>
         </route>
-        <!-- <route path="react">
-            <application name="@microfrontend/react"/>
-        </route>
-        <route path="vue">
-            <application name="@microfrontend/vue"/>
-        </route>
-        <route path="angular">
-            <application name="@microfrontend/angular"/>
-        </route> -->
     </main>
 </single-spa-router>
-  
